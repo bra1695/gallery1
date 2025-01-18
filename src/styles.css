@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{
+    --dark-navy:#261676;
+    --blue:#2463FF;
+}
+@font-face {
+    font-family: 'Mouse Sans';
+    src: url('assets/fonts/MouseMemoirs-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.bg-dark-navy{
+    background-color: var(--dark-navy);
+}
+.text-dark-navy{
+    color: var(--dark-navy);
+}
+.bg-blue{
+    background-color: var(--blue);
+}
+.text-blue{
+    color: var(--blue);
+}
+.mouse-sans{
+    font-family: "Mouse Sans" ,sans-serif;
+}
